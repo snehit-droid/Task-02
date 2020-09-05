@@ -8,20 +8,20 @@ Loosely speaking, objects in JavaScript may be defined as an unordered collectio
 An object can be created with figure brackets {…} with an optional list of properties. A property is a “key: value” pair, where a key is a string (also called a “property name”), and value can be anything.
 
 To understand this rather abstract definition, let us look at an example of a JavaScript Object :
-'''javascript
+```javascript
 let school = {
 name : “Vivekananda School”,
 location : “Delhi”,
 established : “1971”
 }
-'''
+```
 In the above example “name”, “location”, “established” are all “keys” and “Vivekananda School”, “Delhi” and 1971 are values of these keys respectively.
 
 Each of these keys is referred to as properties of the object. An object in JavaScript may also have a function as a member, in which case it will be known as a method of that object.
 
 Let us see such an example :
 // javascript code demonstrating a simple object
-'''javascript
+```javascript
 let school = {
 name: ‘Vivekananda School’,
 location : ‘Delhi’,
@@ -32,7 +32,7 @@ in ${school.established} at ${school.location});
 }
 }
 school.displayInfo();
-'''
+```
 Output:
 In the above example, “displayinfo” is a method of the school object that is being used to work with the object’s data, stored in its properties.
 Properties of JavaScript Object
