@@ -1,0 +1,71 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('bkg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    width: auto;
+    background-color: honeydew;
+   /* width: 80%;
+   margin-right: auto;
+    margin-left: auto;*/
+    padding: 10px 20px 10px;
+}
+
+.address{
+    line-height: 1.5;
+}
+
+.space{
+    padding: 0 5px 5px 10px;
+    /*padding-bottom: 5px;*/
+}
+
+.sections{
+    margin-bottom: 10px;
+    line-height: 1.1;
+    box-shadow: 3px 12px 11px 9px #f2f2f2;
+    padding: 5px 3px 7px;
+}
+
+.edu-details{
+    width: 80%;
+    margin: auto;
+}
+.edu-details td{
+    border: solid 1px #ccc;
+    padding: 12px;
+}
+.edu-details th{
+    border: solid 1px #ccc;
+    background-color: #f1f1f1;
+    padding: 15px 0;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    padding: 10px 0 10px; 
+}
+
+h2{
+    background-color: #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 6px 5px 12px #ccc;
+    /*text-shadow: 5px 8px 12px #ccc;*/
+}
+
+ol, ul{
+    list-style-position: inside;
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+ol li, ul li{
+    padding: 5px 0;
+}
